@@ -15,6 +15,7 @@ SchNet uses:
 - Continuous-filter convolutions
 - Atom-wise aggregation
 ![Interaction block](int_blocks.png) ![Prediction block](prediction_block.png)
+
 Datasets:
 - QM9 (U0, dipole)
 - QeMFi (excited states)
