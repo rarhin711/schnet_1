@@ -14,7 +14,13 @@ SchNet uses:
 - Atomic embeddings
 - Continuous-filter convolutions
 - Atom-wise aggregation
-![Interaction block](int_blocks.png) ![Prediction block](prediction_block.png)
+
+## Interaction and Prediction blocks
+<p align="center">
+  <img src="int_blocks.png" width="45%" />
+  <img src="prediction_block.png" width="45%" />
+</p>
+
 
 Datasets:
 - QM9 (U0, dipole)
@@ -28,9 +34,22 @@ gradually
 
 ## Results
 The metrics for evaluating the model's loss included the MAE and RMSE. Also parity plots were used to compare the actual values (labels) with the predicted ones. 
-![Internal energy prediction](qm9_u0.png) ![Dipole moment prediction](qm9_dipole.png)
-![Table of model prediction on QeMFI dataset](qemfi_table.png)
-![Excited state energy parity plot](qemfi_state_1.png) ![Oscillator strength parity plot](qemfi_osc.png) ![Spectra](qemfi_spec.png)
+## QM9 Predictions
+<p align="center">
+  <img src="qm9_u0.png" width="45%" />
+  <img src="qm9_dipole.png" width="45%" />
+</p>
+
+## QeMFI Predictions
+<p align="center">
+  <img src="qemfi_table.png" width="60%" />
+</p>
+
+<p align="center">
+  <img src="qemfi_state_1.png" width="30%" />
+  <img src="qemfi_osc.png" width="30%" />
+  <img src="qemfi_spec.png" width="30%" />
+</p>
 
 ## References
 Schütt, K.T., Sauceda, H.E., Kindermans, P.J., Tkatchenko, A. and Müller, K.R., 2018. Schnet–a deep learning architecture for molecules and materials. The Journal of chemical physics, 148(24).
